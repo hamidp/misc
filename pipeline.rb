@@ -1,3 +1,5 @@
+# A Ruby implementation of the pipeline operator (|>) from F#
+
 def method_missing(sym, *args)
   if(sym.to_s == "pl")
     # args will be the symbol of the method to invoke, and self is the object
